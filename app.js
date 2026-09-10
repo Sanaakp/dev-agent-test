@@ -6,7 +6,7 @@
  */
 
 function createStatus(message = "Project is ready.") {
-  const status = "ok";
+  let status = "ok";
   const normalizedMessage =
     typeof message === "string" && message.trim() ? message.trim() : "Project is ready.";
 
