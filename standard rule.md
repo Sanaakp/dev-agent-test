@@ -16,6 +16,7 @@ Keep the project clear, predictable, and easy to change. Prefer small, focused c
 - Target the Python version documented by the project.
 - Use type hints for public functions and meaningful return values.
 - Keep functions small and give them one responsibility.
+- Keep reusable result-building logic in focused Python modules instead of the CLI entry point.
 - Use the standard library unless a dependency provides clear value.
 - Return non-zero exit codes for command-line failures.
 
